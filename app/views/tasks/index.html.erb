@@ -1,0 +1,7 @@
+<ul>
+  <% Task.all.each do |task| %>
+  <li><%= task.title %></li>
+  <%# <%= link_to task.title, 'tasks/params[:id]' %> %>
+  <%= link_to task.title, "tasks/#{task.id}" %>
+  <% end %>
+</ul>
