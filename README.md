@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+A bare basic form of a to-do-list app I created during my time at Le Wagon, completing this task helped me understand the CRUD actions using Rails.
 
 * Ruby version
+```
+ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [arm64-darwin21]
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployment instructions <br>
+To launch a webserver and run the app locally just run 
+```
+rails s
+```
