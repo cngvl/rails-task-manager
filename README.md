@@ -1,6 +1,6 @@
 # README
 
-A bare basic form of a to-do-list app I created during my time at Le Wagon, completing this task helped me understand the CRUD actions using Rails.
+A bare basic form of a to-do-list app I created during my time at Le Wagon, completing this task helped me understand the basics of CRUD actions using Rails.
 
 * Ruby version
 ```
