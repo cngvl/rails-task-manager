@@ -1,7 +1,8 @@
+<h1>A list of all your tasks</h1>
+
 <ul>
   <% Task.all.each do |task| %>
-  <li><%= task.title %></li>
-  <%# <%= link_to task.title, 'tasks/params[:id]' %> %>
-  <%= link_to task.title, "tasks/#{task.id}" %>
+  <li><%= link_to task.title, task_path(task) %></li> <br>
   <% end %>
 </ul>
+<%= link_to 'Add new task to list ', tasks_new_path %>

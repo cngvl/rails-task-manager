@@ -1,5 +1,12 @@
-<h1>Show page</h1>
+<h1><%= @task.title %> <br></h1>
 
-<%= @task.title %> <br>
-<%= @task.details %><br>
-<%= link_to 'Back to list', '/index' %>
+<p>Task description: <%= @task.details %> </p>
+<% if @task.completed? %>
+  <p>Task completed!</p>
+<% else %>
+  <p>Task not completed yet!</p>
+<% end %>
+
+<%= link_to 'Edit this task', task_edit_path %>
+<%= link_to 'Back to list', tasks_path %>
+<%# raise %>
